@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang='ko'>
+    <head>
+        <meta charset='utf-8' />
+        <title>계산기</title>
+        <link rel='stylesheet' href='./index.css'>
+        <script src='./index.js'></script>
+    </head>
+    <body>
+        <div class="logo">calculator</div>
+        <div class='func'> <!--하나로 묶어서 스타일 주기-->
+            <div class='function'>
+                더하기
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>+</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='PLUS' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                빼기
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>-</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='MINUS' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                곱하기
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>*</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='MULTY' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>            
+            <div class='function'>
+                나누기
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>/</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='DEVISION' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                제곱
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>**</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='SQUARE' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                나누기의 나머지 값
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <span>%</span>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='MODERS' onclick='calc(event)' />
+                <input type='text' readonly />
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                퍼센트 계산
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='전체값' />
+                <input type='number' placeholder='퍼센트' />
+                <input type='button' value='PERCENT' onclick='calc(event)' />
+                <input type='text' readonly/><span> %</span>
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                루트
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='ROOT' onclick='calc(event)' />
+                <input type='text' readonly/>
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                반올림
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='ROUND_OFF' onclick='calc(event)' />
+                <input type='text' readonly/>
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                올림
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='ROUND_UP' onclick='calc(event)' />
+                <input type='text' readonly/>
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+        <div class='func'>
+            <div class='function'>
+                내림
+            </div>
+            <div class ='function-'>
+                <input type='number' placeholder='숫자' />
+                <input type='button' value='ROUND_DOWN' onclick='calc(event)' />
+                <input type='text' readonly/>
+                <input type='button' value='delete' onclick='clearInput(event)' /> 
+            </div>
+        </div>
+    </body>
+</html>
