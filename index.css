@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    background:#FFC5D0;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.func {
+    margin: 16px 10px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    height: 100px;
+}
+
+.function- > input[type='number'] {
+    width: 80px;
+}
+
+.function- > span {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
+.function- > input[type='button'] {
+    width: 115px;
+    background: #FDF5E6;
+    border: 2px solid #FDEBC8;
+}
+
+.function {
+    display: inline-block;
+    margin-bottom: 20px;
+}
